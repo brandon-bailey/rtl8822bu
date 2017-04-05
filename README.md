@@ -9,8 +9,9 @@ A few known wireless cards that use this driver include
 * [ASUS AC-53 NANO](https://www.asus.com/Networking/USB-AC53-Nano/)
 
 
-<u>At least v4.0 is needed to compile this module</u>  
-sorry people with older kernels, the code is removed.
+> NOTE: At least v4.7 is needed to compile this module
+> sorry people with older kernels, the code is removed.
+> Upon request I can work towards making it backwards compatible.
 
 Currently tested on X86_64 and ARM platform(s) **only**,  
 cross compile possible.
