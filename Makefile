@@ -1058,8 +1058,8 @@ EXTRA_CFLAGS += -DPLATFORM_LINUX
 
 
 SUBARCH := $(shell uname -m | sed -e s/i.86/i386/)
-#ARCH ?= $(SUBARCH)
-ARCH = arm
+ARCH ?= $(SUBARCH)
+#ARCH = arm
 CROSS_COMPILE ?=
 KVER  := $(shell uname -r)
 KSRC := /lib/modules/$(KVER)/build
