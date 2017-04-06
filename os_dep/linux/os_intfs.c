@@ -31,7 +31,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Realtek Wireless Lan Driver");
-MODULE_AUTHOR("Realtek Semiconductor Corp.");
+MODULE_AUTHOR("Brandon Bailey <brandondanielbailey@gmail.com>");
 MODULE_VERSION(DRIVERVERSION);
 
 /* module param defaults */

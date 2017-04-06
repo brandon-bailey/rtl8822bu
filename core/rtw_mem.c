@@ -4,7 +4,7 @@
 
 MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Realtek Wireless Lan Driver 802.11 AC");
-MODULE_AUTHOR("Brandon Bailey <brandon@rmrcom.com>");
+MODULE_AUTHOR("Brandon Bailey <brandondanielbailey@gmail.com>");
 MODULE_VERSION("DRIVERVERSION");
 
 struct sk_buff_head rtk_skb_mem_q;
