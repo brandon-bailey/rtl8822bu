@@ -12905,12 +12905,11 @@ static int rtw_ioctl_standard_wext_private(struct net_device *dev, struct ifreq 
 }
 
 static int rtw_ioctl_wext_private(struct net_device *dev, struct ifreq *rq) {
+
 #ifdef CONFIG_COMPAT
-	if (is_compat_task())
-		return rtw_ioctl_compat_wext_private(dev, rq);
-	else
+	return rtw_ioctl_compat_wext_private(dev, rq);
 #endif /* CONFIG_COMPAT */
-		return rtw_ioctl_standard_wext_private(dev, rq);
+	return rtw_ioctl_standard_wext_private(dev, rq);
 }
 
 int rtw_ioctl(struct net_device *dev, struct ifreq *rq, int cmd) {
