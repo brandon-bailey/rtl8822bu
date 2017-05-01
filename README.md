@@ -34,6 +34,7 @@ install the kernel sources and build an <u>external</u> module.
 This driver allows use of wpa_supplicant by using the nl80211 driver
 `wpa_supplicant -Dnl80211`
 
+If installing on Rasberry Pi or other "armv71" devices, edit the Makefile and set `CONFIG_PLATFORM_ARM_RPI = y` and `CONFIG_PLATFORM_I386_PC = n`
 
 **STATUS**  
 Driver works fine (some sort of)  
